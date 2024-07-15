@@ -1,0 +1,62 @@
+
+.taken-users {
+    background-color: white;
+}
+
+/*text qismi bilan ishlash*/
+.take-user-note-text {
+    display: flex;
+    justify-content: center;
+}
+
+.take-user-text {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: red;
+}
+
+/*Jadval bilan ishlash qismi*/
+.take-users-table-part {
+    display: flex;
+    justify-content: center;
+}
+
+.take-user-all {
+    width: 100%;
+}
+
+
+/*buttonlar bilan ishlash qismi*/
+.take-user-td-cols-button-block {
+    display: flex;
+    justify-content: center;
+}
+
+.take-user-delete-rows-button {
+    width: 100%;
+    border: none;
+}
+
+.take-user-delete-rows-button:active {
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+}
+
+.delete-but{
+    background-color: red;
+    color: yellow;
+}
+
+.delete-but:active{
+    background-color: #fa8801;
+}
+
+.update-but {
+    background-color: greenyellow;
+    color: blue;
+}
+
+.update-but:active {
+    background-color: #03f674;
+}
