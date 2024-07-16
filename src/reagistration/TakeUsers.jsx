@@ -41,6 +41,8 @@ function TakeUsersFunc() {
                             <th className="take-user-th-cols">Year</th>
                             <th className="take-user-th-cols">Address</th>
                             <th className="take-user-th-cols">Gender</th>
+
+                            {/*Buttons part*/}
                             <th className="take-user-th-cols">Delete</th>
                             <th className="take-user-th-cols">Update</th>
                         </tr>

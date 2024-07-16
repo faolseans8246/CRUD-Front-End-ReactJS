@@ -60,3 +60,25 @@
 .update-but:active {
     background-color: #03f674;
 }
+
+/*Table bilan ishlash qismi*/
+.take-user-all {
+    border: 3px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: darkslategrey;
+ }
+
+.take-user-th-cols {
+    border-radius: 3px;
+    background-color: dimgray;
+    color: white;
+}
+
+.take-user-th-cols {
+    width: 50px;
+}
+
+.take-use-td-cols {
+    background-color: white;
+}
