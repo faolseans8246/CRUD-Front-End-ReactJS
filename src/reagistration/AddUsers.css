@@ -217,3 +217,21 @@
     color: #ff002f;
     font-weight: bold;
 }
+
+
+/*Link page*/
+.add-user-to-take-page {
+    display: flex;
+    justify-content: center;
+}
+
+.add-user-to-table-page-text {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.add-user-to-take {
+    text-decoration: none;
+    border: none;
+    color: blue;
+}

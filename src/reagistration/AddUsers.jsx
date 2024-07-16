@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import './AddUsers.css'
 
+import {Link} from "react-router-dom";
+
 function AddUserFunc() {
     // Vazifalar qismini shakllantiramiz
     const [formData, setFormData] = useState({
@@ -199,6 +201,18 @@ function AddUserFunc() {
                             </button>
                         </div>
                     </form>
+                </div>
+
+                {/*Go to table page*/}
+                <div className="add-user-to-take-page">
+
+                    <div className="add-user-to-table-page-text">
+                        Go to table:
+                    </div>
+
+                    <Link to="/table" className="add-user-to-take">
+                        My Tables
+                    </Link>
                 </div>
             </div>
 

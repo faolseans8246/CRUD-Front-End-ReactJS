@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from "react";
 import './TakeUsers.css'
+import {Link}                       from "react-router-dom";
+
 
 
 function TakeUsersFunc() {
@@ -80,6 +82,16 @@ function TakeUsersFunc() {
                         ))}
                         </tbody>
                     </table>
+                </div>
+
+
+                {/*Back to add page*/}
+                <div className="take-user-passing-button">
+                    <div className="take-uesr-back-to">
+                        <Link to="/add"  className="take-user-back-link">
+                            Back registration
+                        </Link>
+                    </div>
                 </div>
             </div>
 
